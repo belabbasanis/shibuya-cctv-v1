@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Model files (large binary files - consider using Git LFS)
+*.pt
+*.onnx
+*.pth
+*.weights
+
+# Video files (large files - consider using Git LFS or excluding)
+input_videos/*.mp4
+output/*.mp4
+*.mp4
+*.avi
+*.mov
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output directories
+output/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
